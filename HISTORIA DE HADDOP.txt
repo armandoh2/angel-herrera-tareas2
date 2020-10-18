@@ -1,0 +1,14 @@
+Historia de HADDOP
+
+El origen de Hadoop se remonta a 2004, cuando el ingeniero de software Doug Cutting, que por aquel entonces trabajaba en Google.
+ Poco después se marchó a Yahoo y allí siguió investigando hasta completar el desarrollo de la plataforma en 2008.
+ El hijo de tres años de Cutting llamaba a su peluche Hadoop y así bautizó su inventor a la plataforma, que también tomaría de ahí su logo, un elefante amarillo.
+La plataforma de código abierto dispone de un sistema para almacenar información en el que ésta se replica en varias máquinas, distribuyéndose de tal manera que si una máquina se cae no se pierdan los datos.
+Es capaz de enviar una orden a cada máquina para que busque en su disco duro, recolectar todas las contestaciones y ordenarlas para resolver la consulta.
+posee las siguientes cualidades; escalabilidad,velocidad,efectividad en costos,flexibilidad,resistencia al fracaso.
+Hadoop es un sistema que se basa en dos grandes partes, los archivos HDFS y el sistema MapReduce.
+herramientas que nos proporciona el ecosistema Hadoop;eclipse,sqoop,flume,hive,pig,hbase,Oozie,Zookeeper,Mahout.
+Los elementos importantes del cluster: name mode,data node,MapReduce.
+El modelo de MapReduce simplifica el procesamiento en paralelo, abstrayéndonos de la complejidad que hay en los sistemas distribuidos. Básicamente las funciones Map transforman un conjunto de datos a un número de pares key/value. Cada uno de estos elementos se encontrará ordenado por su clave, y la función reduce es usada para combinar los valores (con la misma clave) en un mismo resultado. 
+uno de sus principales atractivos es el algoritmo de procesamiento y búsquedas: MapReduce. Esta herramienta permite hacer consultas a una base de datos inmensa y obtener respuestas rápidas. Es capaz de enviar una orden a cada máquina para que busque en su disco duro, recolectar todas las contestaciones y ordenarlas para resolver la consulta. Cualidades
+
